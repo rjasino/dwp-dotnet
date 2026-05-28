@@ -5,7 +5,7 @@ namespace WebApplication1.Data
 {
     public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions options) : base(options)
+        public ApplicationDbContext(DbContextOptions options) : base(options) //passing of values to the base class constructor
         {
             
         }
